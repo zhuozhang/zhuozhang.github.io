@@ -34,6 +34,15 @@
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
+
+img.icon {
+  vertical-align: top;
+  display: inline;
+  height: 1em;
+  margin-top: 0.25em;
+  margin-bottom: 0;
+}
+
 @media (min-width: 48em) {
   html {
     font-size: 16px;

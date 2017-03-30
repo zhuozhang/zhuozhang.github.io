@@ -36,10 +36,11 @@ html {
 }
 
 img.icon {
-  margin: 0 0 0 0;
-  vertical-align: middle;
+  vertical-align: top;
   display: inline;
   height: 1em;
+  margin-top: 0.25em;
+  margin-bottom: 0;
 }
 
 @media (min-width: 48em) {
@@ -65,8 +66,24 @@ img.icon {
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
-  /* background-color: #6d695c; */
-  background-color: #606050;
+  /* background-color: #202020; */
+  /* background: */
+  /* linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, */
+  /* linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, */
+  /* linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, */
+  /* linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, */
+  /* linear-gradient(90deg, #1b1b1b 10px, transparent 10px), */
+  /* linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424); */
+  /* background-color: #131313; */
+  /* background-size: 20px 20px; */
+  /* background-image: url('/img/b2.jpg'); */
+  /* background: */
+  /* linear-gradient(45deg, #92baac 45px, transparent 45px)64px 64px, */
+  /* linear-gradient(45deg, #92baac 45px, transparent 45px,transparent 91px, #e1ebbd 91px, #e1ebbd 135px, transparent 135px), */
+  /* linear-gradient(-45deg, #92baac 23px, transparent 23px, transparent 68px,#92baac 68px,#92baac 113px,transparent 113px,transparent 158px,#92baac 158px); */
+  /* background-color:#e1ebbd; */
+  /* background-size: 128px 128px; */
+  background-color: #6d695c;
   background-image:
   repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
   repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
@@ -86,7 +103,7 @@ img.icon {
     position: fixed;
     top: 0;
     left: 0;
-    bottom: 0;
+    bottom: 1rem;
     width: 18rem;
     text-align: left;
   }
@@ -107,7 +124,7 @@ img.icon {
 
 /* Sidebar nav */
 .sidebar-nav {
-  /* margin-bottom: 1rem; */
+  margin-bottom: 1rem;
 }
 .sidebar-nav-item {
   display: block;
@@ -128,6 +145,7 @@ a.sidebar-nav-icon {
   line-height: 1.75;
   margin-top: 1rem;
   margin-right: 2rem;
+  margin-bot: 1rem;
 }
 /* Sticky sidebar
  *
@@ -165,6 +183,9 @@ a.sidebar-nav-icon {
 }
 
 @media (min-width: 64em) {
+  .sidebar{
+    margin-bot: 1rem;
+  }
   .content {
     margin-left: 22rem;
     margin-right: 4rem;

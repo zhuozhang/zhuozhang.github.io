@@ -22,9 +22,12 @@ exclude:        [_*~]
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
-  - jekyll-feed
-  - jekyll-paginate
+# gems:
+#   - jekyll-feed
+#   - jekyll-paginate
+
+gems: [jekyll-paginate, jekyll-feed]
+
 exclude:
   - Gemfile
   - Gemfile.lock
